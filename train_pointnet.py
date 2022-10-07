@@ -283,13 +283,13 @@ def makeEnv(env_name, idx, args):
 
 
 def init_wandb(args, run_name):
-    wandb.init(name=run_name, id=run_name, resume=None,
-               save_code=True, anonymous="allow")
-
+    #wandb.init(name=run_name, id=run_name, resume=None,
+    #           save_code=True, anonymous="allow")
+    pass
 
 def log_callback(logged_dict):
-    wandb.log(logged_dict)
-
+    #wandb.log(logged_dict)
+    pass
 
 if __name__ == '__main__':
     # env setting ========================================================================
