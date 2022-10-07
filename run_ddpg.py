@@ -21,14 +21,14 @@ def init_callback(args, prefix):
     else:
         resume_mode = None
     run_name = '{}_{:04d}'.format(prefix, args.expID)
-    wandb.init(name=run_name, id=run_name, resume=resume_mode,
-               save_code=True, anonymous="allow")
-    wandb.config.update(args, allow_val_change=True)
+    #wandb.init(name=run_name, id=run_name, resume=resume_mode,
+    #           save_code=True, anonymous="allow")
+    #wandb.config.update(args, allow_val_change=True)
 
 
 def log_callback(log_dict):
-    wandb.log(log_dict)
-
+    #wandb.log(log_dict)
+    pass
 
 def get_env_params(env, args):
     obs = env.reset()
