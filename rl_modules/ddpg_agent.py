@@ -54,7 +54,8 @@ class ddpg_agent(base_agent):
             if 'buffers' in self.ckpt_dict:
                 self.buffers = self.ckpt_dict['buffers']
             else:
-                assert self.args.eval
+                #assert self.args.eval
+                pass
         else:
             self.actor_func = PointnetMLP if args.point_cloud else VanillaActor
             self.critic_func = PointnetMLP_critic if args.point_cloud else VanillaCritic
