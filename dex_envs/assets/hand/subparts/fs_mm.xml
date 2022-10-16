@@ -1,0 +1,42 @@
+<mujocoinclude>
+<body name="mm_surface" pos="0 -0.0095 0.0225">
+							
+	<geom  type="box" pos="-0.0066 0 0.005" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_1" type="box" pos="-0.0066 -0.0012 0.005" size="0.0033 0.002 0.0025" rgba="0.5 1 1 0.5"/>
+	
+	<geom  type="box" pos="0 0 0.005" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_2" type="box" pos="0 -0.0012 0.005" size="0.0033 0.002 0.0025" rgba="1 0.5 1 0.5"/>
+	
+	<geom  type="box" pos="0.0066 0 0.005" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_3" type="box" pos="0.0066 -0.0012 0.005" size="0.0033 0.002 0.0025" rgba="0 0.5 1 0.5"/>
+	
+	<geom  type="box" pos="-0.0066 0 0" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_4" type="box" pos="-0.0066 -0.0012 0" size="0.0033 0.002 0.0025" rgba="1 0 1 0.5"/>
+	<geom  type="box" pos="0 0 0" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_5" type="box" pos="0 -0.0012 0" size="0.0033 0.002 0.0025" rgba="0 1 1 0.5"/>
+	
+	<geom  type="box" pos="0.0066 0 0" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_6" type="box" pos="0.0066 -0.0012 0" size="0.0033 0.002 0.0025" rgba="1 1 1 0.5"/>
+	
+	
+	<geom  type="box" pos="-0.0066 0 -.005" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_7" type="box" pos="-0.0066 -0.0012 -.005" size="0.0033 0.002 0.0025" rgba="0.5 1 0 0.5"/>
+	<geom  type="box" pos="0 0 -.005" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_8" type="box" pos="0 -0.0012 -.005" size="0.0033 0.002 0.0025" rgba="1 0 1 0.5"/>
+	
+	<geom  type="box" pos="0.0066 0 -.005" size="0.0033 0.0012 0.0025" rgba="0 0 1 0.5"/>
+	<site name="mm_9" type="box" pos="0.0066 -0.0012 -.005" size="0.0033 0.002 0.0025" rgba="0 1 1 0.5"/>
+	
+	
+	
+	<geom  type="box" pos="-0.0066 0 -0.01" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_10" type="box" pos="-0.0066 -0.0012 -0.01" size="0.0033 0.002 0.0025" rgba="0.5 1 1 0.5"/>
+	<geom  type="box" pos="0 0 -0.01" size="0.0033 0.0012 0.0025" rgba="0 1 0 0.5"/>
+	<site name="mm_11" type="box" pos="0 -0.0012 -0.01" size="0.0033 0.002 0.0025" rgba="1 1 1 0.5"/>
+	<geom  type="box" pos="0.0066 0 -0.01" size="0.0033 0.0012 0.0025" rgba="1 0 0 1"/>
+	<site name="mm_12" type="box" pos="0.0066 -0.0012 -0.01" size="0.0033 0.002 0.0025" rgba="1 0 1 0.5"/>
+	
+	
+
+</body>
+</mujocoinclude>
