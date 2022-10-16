@@ -5,7 +5,7 @@ MESH_NAMES = ['a_cups',  'chain',  'f_lego_duplo',  'peach',  'airplane',  'chip
 # 85 objects (avg success rate of experts = 56%)
 #ALL_TRAIN = ['e_toy_airplane', 'knife', 'flat_screwdriver', 'elephant', 'apple', 'scissors', 'i_cups', 'cup', 'foam_brick', 'pudding_box', 'wristwatch', 'padlock', 'power_drill', 'binoculars', 'b_lego_duplo', 'ps_controller', 'mouse', 'hammer', 'f_lego_duplo', 'piggy_bank', 'can', 'extra_large_clamp', 'peach', 'a_lego_duplo', 'racquetball', 'tuna_fish_can', 'a_cups', 'pan', 'strawberry', 'd_toy_airplane', 'wood_block', 'small_marker', 'sugar_box', 'ball', 'torus', 'i_toy_airplane', 'chain', 'j_cups', 'c_toy_airplane', 'airplane', 'nine_hole_peg_test', 'water_bottle', 'c_cups', 'medium_clamp',
 #             'large_marker', 'h_cups', 'b_colored_wood_blocks', 'j_lego_duplo', 'f_toy_airplane', 'toothbrush', 'tennis_ball', 'mug', 'sponge', 'k_lego_duplo', 'phillips_screwdriver', 'f_cups', 'c_lego_duplo', 'd_marbles', 'd_cups', 'camera', 'd_lego_duplo', 'golf_ball', 'k_toy_airplane', 'b_cups', 'softball', 'wine_glass', 'chips_can', 'cube', 'master_chef_can', 'alarm_clock', 'gelatin_box', 'h_lego_duplo', 'baseball', 'light_bulb', 'banana', 'rubber_duck', 'headphones', 'i_lego_duplo', 'b_toy_airplane', 'pitcher_base', 'j_toy_airplane', 'g_lego_duplo', 'cracker_box', 'orange', 'e_cups']
-ALL_TRAIN = ['e_toy_airplane', 'knife', 'flat_screwdriver']
+ALL_TRAIN = ['ball', 'knife', 'cube']
 
 
 
@@ -14,4 +14,4 @@ ALL_TRAIN = ['e_toy_airplane', 'knife', 'flat_screwdriver']
 #ALL_TEST = ['rubiks_cube', 'dice', 'bleach_cleanser', 'pear', 'e_lego_duplo', 'pyramid', 'stapler', 'flashlight', 'large_clamp', 'a_toy_airplane', 'tomato_soup_can', 'fork', 'cell_phone', 'm_lego_duplo',
 #            'toothpaste', 'flute', 'stanford_bunny', 'a_marbles', 'potted_meat_can', 'timer', 'lemon', 'utah_teapot', 'train', 'g_cups', 'l_lego_duplo', 'bowl', 'door_knob', 'mustard_bottle', 'plum']
 
-ALL_TEST = ['rubiks_cube', 'dice', 'bleach_cleanser']
+ALL_TEST = ['ball', 'knife','cube']
