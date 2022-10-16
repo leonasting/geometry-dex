@@ -19,6 +19,7 @@ def makeEnv(env_name, idx, args):
     """return wrapped gym environment for parallel sample collection (vectorized environments)"""
     def helper():
         e = gym.make('{}-rotate-v1'.format(env_name))
+        e.env.sim.model.njmax=1200
         e.seed(args.seed + idx)
         return PointCloudWrapper(e, args)
     return helper
