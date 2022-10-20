@@ -13,5 +13,4 @@
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
 
-python run_ddpg.py --expID 5 --video_count 0 --n_cycles 40000 --chunk 10 --point_cloud --pointnet_load_path 2 --no_save_buffer --load_path 5 --n_test_rollouts 300 --num_rollouts 300 --num_parallel_envs 300 --fresh
-
+python run_ddpg.py --expID 3 --video_count 0 --n_cycles 40000 --chunk 10 --point_cloud --pointnet_load_path 2 --no_save_buffer --load_path 3 --n_test_rollouts 60 --num_rollouts 60 --num_parallel_envs 60
