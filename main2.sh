@@ -1,7 +1,7 @@
 !/bin/bash
 #
-#SBATCH --job-name=policy_train
-#SBATCH --output=pl2ap-srun.log
+#SBATCH --job-name=test_check
+#SBATCH --output=test.log
 #
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
