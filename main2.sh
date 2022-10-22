@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #
 #SBATCH --job-name=test_check
 #SBATCH --output=test.log
