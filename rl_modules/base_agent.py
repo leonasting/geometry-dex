@@ -52,6 +52,7 @@ class base_agent:
         # construct make env functions
         eval_num_repeated = self.args.n_test_rollouts // (
             self.num_train_envs + self.num_test_envs)
+        print("test 1")
         make_fns = []
         self.eval_vec_env_names = []
         count = 0
@@ -61,6 +62,8 @@ class base_agent:
                 self.eval_vec_env_names.append(env_name)
                 count += 1
         # env parallelization methods (recommend chunk envs with chunk_size = ~10)
+        print("test 2")
+        
         if self.args.serial:
             self.eval_envs = DummyVecEnv(make_fns)
         elif self.args.chunk_size != 0:
