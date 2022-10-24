@@ -3,7 +3,7 @@
     <option timestep="0.002" iterations="20" apirate="200">
         <flag warmstart="enable"/>
     </option>
-	 <size njmax="8000" nconmax="4000"/>
+	 <size njmax="10000" nconmax="6000"/>
     <include file="shared.xml"/>
 
     <asset>
