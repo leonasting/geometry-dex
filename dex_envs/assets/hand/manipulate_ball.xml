@@ -5,7 +5,7 @@
     </option>
 
     <include file="shared.xml"/>
-    <size njmax="10000" nconmax="6000"/>
+    <size njmax="12000" nconmax="8000"/>
     <asset>
         <include file="shared_asset.xml"/>
 
