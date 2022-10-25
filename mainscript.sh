@@ -15,7 +15,5 @@
 
 echo $PWD > /home/015898207/pwd_value.txt
 echo "started_running" > /home/015898207/pwd_value.txt
-conda activate om
-echo "activated om" > /home/015898207/pwd_value.txt
-python run_ddpg.py --expID 2 --video_count 0 --n_cycles 40000 --chunk 10 --point_cloud --pointnet_load_path 2 --no_save_buffer   --num_parallel_envs 60 --num_rollouts 60 --n_test_rollouts 60 --fresh
+python run_ddpg.py --expID 4 --video_count 0 --n_cycles 40000 --chunk 10 --point_cloud --pointnet_load_path 2 --no_save_buffer   --num_parallel_envs 6 --num_rollouts 6 --n_test_rollouts 6 --fresh
 echo "done_running" > /home/015898207/pwd_value.txt
