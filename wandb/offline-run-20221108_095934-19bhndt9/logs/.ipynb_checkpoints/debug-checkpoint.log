@@ -1,0 +1,36 @@
+2022-11-08 09:59:34,165 INFO    MainThread:94992 [wandb_setup.py:_flush():68] Configure stats pid to 94992
+2022-11-08 09:59:34,165 INFO    MainThread:94992 [wandb_setup.py:_flush():68] Loading settings from /home/015898207/.config/wandb/settings
+2022-11-08 09:59:34,165 INFO    MainThread:94992 [wandb_setup.py:_flush():68] Loading settings from /home/015898207/geometry-dex/wandb/settings
+2022-11-08 09:59:34,165 INFO    MainThread:94992 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'api_key': '***REDACTED***', 'mode': 'offline'}
+2022-11-08 09:59:34,165 INFO    MainThread:94992 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-11-08 09:59:34,165 INFO    MainThread:94992 [wandb_init.py:_log_setup():476] Logging user logs to /home/015898207/geometry-dex/wandb/offline-run-20221108_095934-19bhndt9/logs/debug.log
+2022-11-08 09:59:34,165 INFO    MainThread:94992 [wandb_init.py:_log_setup():477] Logging internal logs to /home/015898207/geometry-dex/wandb/offline-run-20221108_095934-19bhndt9/logs/debug-internal.log
+2022-11-08 09:59:34,165 INFO    MainThread:94992 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f76ac0f1828>
+2022-11-08 09:59:34,166 INFO    MainThread:94992 [wandb_init.py:init():516] calling init triggers
+2022-11-08 09:59:34,166 INFO    MainThread:94992 [wandb_init.py:init():520] wandb.init called with sweep_config: {}
+config: {}
+2022-11-08 09:59:34,167 INFO    MainThread:94992 [wandb_init.py:init():569] starting backend
+2022-11-08 09:59:34,167 INFO    MainThread:94992 [wandb_init.py:init():573] setting up manager
+2022-11-08 09:59:34,171 INFO    MainThread:94992 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: fork
+2022-11-08 09:59:34,173 INFO    MainThread:94992 [wandb_init.py:init():580] backend started and connected
+2022-11-08 09:59:34,189 INFO    MainThread:94992 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-11-08 09:59:34,190 INFO    MainThread:94992 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-11-08 09:59:34,190 INFO    MainThread:94992 [wandb_init.py:init():658] updated telemetry
+2022-11-08 09:59:34,190 INFO    MainThread:94992 [wandb_init.py:init():728] starting run threads in backend
+2022-11-08 09:59:39,213 INFO    MainThread:94992 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-08 09:59:39,213 INFO    MainThread:94992 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-08 09:59:39,215 INFO    MainThread:94992 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-08 09:59:39,215 INFO    MainThread:94992 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-08 09:59:39,216 INFO    MainThread:94992 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-08 09:59:39,217 INFO    MainThread:94992 [wandb_init.py:_pause_backend():389] pausing backend
+2022-11-08 09:59:39,217 INFO    MainThread:94992 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-08 09:59:45,433 INFO    MainThread:94992 [wandb_init.py:_resume_backend():398] resuming backend
+2022-11-08 09:59:45,456 INFO    MainThread:94992 [wandb_run.py:_finish():1746] finishing run offline-demo/19bhndt9
+2022-11-08 09:59:45,456 INFO    MainThread:94992 [jupyter.py:save_history():448] not saving jupyter history
+2022-11-08 09:59:45,456 INFO    MainThread:94992 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-11-08 09:59:45,456 INFO    MainThread:94992 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-11-08 09:59:45,456 INFO    MainThread:94992 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-11-08 09:59:45,457 INFO    MainThread:94992 [wandb_run.py:_restore():1932] restore
+2022-11-08 09:59:45,457 INFO    MainThread:94992 [wandb_run.py:_restore():1938] restore done
+2022-11-08 09:59:46,582 INFO    MainThread:94992 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-08 09:59:46,583 INFO    MainThread:94992 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
