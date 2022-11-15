@@ -11,7 +11,7 @@
 <touch name="tfp_10"	site="fp_10"/>
 <touch name="tfp_11"	site="fp_11"/>
 <touch name="tfp_12"	site="fp_12"/>
-
+<!--
 <touch name="tfm_1"	site="fm_1"/>
 <touch name="tfm_2"	site="fm_2"/>
 <touch name="tfm_3"	site="fm_3"/>
@@ -118,67 +118,7 @@
 <touch name="trd_10"	site="rd_10" />
 <touch name="trd_11"	site="rd_11" />
 <touch name="trd_12"	site="rd_12" />
-<!--Palm Sensors-->
-		<touch name="sp_0_8"	site="p_0_8"/><!--0-->
-		
-		
-<!--LittleFingerJoint-->
-		<touch name="sp_11_22"	site="p_11_22"/><!--3-->			
-		<touch name="sp_12_22"	site="p_12_22"/><!--3-->
-		<touch name="sp_12_23"	site="p_12_23"/><!--4-->
-		<touch name="sp_13_17"	site="p_13_21"/><!--7-->
-		<touch name="sp_13_18"	site="p_13_22"/><!--8-->	
-		<touch name="sp_13_21"	site="p_13_21"/><!--7-->
-		<touch name="sp_13_22"	site="p_13_22"/><!--8-->
-		<touch name="sp_13_23"	site="p_13_23"/><!--9-->
-		<touch name="sp_14_17"	site="p_14_17"/>
-		<touch name="sp_14_18"	site="p_14_18"/>
-		<touch name="sp_14_19"	site="p_14_19"/><!--10-->
-		<touch name="sp_14_20"	site="p_14_20"/><!--11-->
-		<touch name="sp_14_21"	site="p_14_21"/><!--12-->
-		<touch name="sp_14_22"	site="p_14_22"/><!--13-->
-		<touch name="sp_15_18"	site="p_15_18"/>
-		<touch name="sp_15_19"	site="p_15_19"/><!--15-->
-		<touch name="sp_15_20"	site="p_15_20"/><!--16-->
-		<touch name="sp_15_21"	site="p_15_21"/><!--17-->
-		<touch name="sp_15_22"	site="p_15_22"/><!--18-->
-		<touch name="sp_15_23"	site="p_15_23"/><!--19-->
-		<touch name="sp_16_19"	site="p_16_19"/><!--20-->
-		<touch name="sp_16_20"	site="p_16_20"/><!--21-->
-		<touch name="sp_16_21"	site="p_16_21"/><!--22-->
-		<touch name="sp_16_22"	site="p_16_22"/><!--23-->
-		<touch name="sp_16_23"	site="p_16_23"/><!--24-->
-		<touch name="sp_17_19"	site="p_17_19"/><!--25-->
-		<touch name="sp_17_20"	site="p_17_20"/><!--26-->
-		<touch name="sp_17_21"	site="p_17_21"/><!--27-->
-		<touch name="sp_17_22"	site="p_17_22"/><!--28-->
-		<touch name="sp_17_23"	site="p_17_23"/><!--29-->
-		<touch name="sp_18_19"	site="p_18_19"/><!--30-->
-		<touch name="sp_18_20"	site="p_18_20"/><!--31-->
-		<touch name="sp_18_21"	site="p_18_21"/><!--32-->
-		<touch name="sp_18_22"	site="p_18_22"/><!--33-->
-		<touch name="sp_18_23"	site="p_18_23"/><!--34-->
-		<touch name="sp_19_19"	site="p_19_19"/><!--35-->
-		<touch name="sp_19_20"	site="p_19_20"/><!--36-->
-		<touch name="sp_19_21"	site="p_19_21"/><!--37-->
-		<touch name="sp_19_22"	site="p_19_22"/><!--38-->
-		<touch name="sp_19_23"	site="p_19_23"/><!--39-->
-		<touch name="sp_20_19"	site="p_20_19"/><!--40-->
-		<touch name="sp_20_20"	site="p_20_20"/><!--41-->
-		<touch name="sp_20_21"	site="p_20_21"/><!--42-->
-		<touch name="sp_20_22"	site="p_20_22"/><!--43-->
-		<touch name="sp_20_23"	site="p_20_23"/><!--44-->
-		<touch name="sp_21_19"	site="p_21_19"/><!--45-->
-		<touch name="sp_21_20"	site="p_21_20"/><!--46-->
-		<touch name="sp_21_21"	site="p_21_21"/><!--47-->
-		<touch name="sp_21_22"	site="p_21_22"/><!--48-->
-		<touch name="sp_21_23"	site="p_21_23"/><!--49-->
-		<touch name="sp_22_19"	site="p_22_19"/><!--50-->
-		<touch name="sp_22_20"	site="p_22_20"/><!--51-->
-		<touch name="sp_22_21"	site="p_22_21"/><!--52-->
-		<touch name="sp_22_22"	site="p_22_22"/><!--53-->
-		<touch name="sp_22_23"	site="p_22_23"/><!--54-->
-	
+
 
 <touch name="tlp_1"	site="lp_1" />
 <touch name="tlp_2"	site="lp_2" />
@@ -261,5 +201,6 @@
 <touch name="ttd_11"	site="td_11" />
 <touch name="ttd_12"	site="td_12" />
 
+-->
 
 </mujocoinclude>

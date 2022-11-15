@@ -227,7 +227,7 @@
         <touch name="robot0:ST_Tch_rftip" site="robot0:Tch_rftip"></touch>
         <touch name="robot0:ST_Tch_lftip" site="robot0:Tch_lftip"></touch>
         <touch name="robot0:ST_Tch_thtip" site="robot0:Tch_thtip"></touch>
-		<!--<include file="subparts/sensors.xml" />-->
+        <include file="subparts/sensors.xml" />
     </sensor>
 
     <actuator>

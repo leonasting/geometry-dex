@@ -15,6 +15,8 @@ class PointCloudWrapper(Wrapper):
         # rename the original obs to minimal_obs
         self.observation_space.spaces['minimal_obs'] = self.observation_space.spaces.pop(
             'observation')
+        self.base_sensordata= self.env.sim.data.sensordata
+        
         if args.point_cloud:
             self.observation_space.spaces['pc_obs'] = copy.deepcopy(
                 self.observation_space.spaces['minimal_obs'])
@@ -61,6 +63,7 @@ class PointCloudWrapper(Wrapper):
                                                     object_normals.flatten(),
                                                     target_points.flatten(),
                                                     target_normals.flatten()])
+            observation['sensordata'] = self.env.sim.data.sensordata
         return observation
 
     def flat2dict(self, obs):

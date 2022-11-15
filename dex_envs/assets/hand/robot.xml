@@ -32,7 +32,7 @@
                             <geom class="robot0:D_Vizual" name="robot0:V_ffproximal" mesh="robot0:F3"></geom>
                             <geom class="robot0:DC_Hand" name="robot0:C_ffproximal" type="capsule" pos="0 0 0.0225" size="0.01 0.0225"></geom>
 
-							<!--<include file="subparts/fs_fp.xml"/>-->
+							<include file="subparts/fs_fp.xml"/>
 
 							<body name="robot0:ffmiddle" pos="0 0 0.045">
                                 <inertial pos="0 0 0.011" quat="0.707 0 0 0.707" mass="0.012" diaginertia="1e-05 1e-05 1e-05"></inertial>
