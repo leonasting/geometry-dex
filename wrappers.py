@@ -64,6 +64,7 @@ class PointCloudWrapper(Wrapper):
                                                     target_points.flatten(),
                                                     target_normals.flatten()])
             observation['sensordata'] = self.env.sim.data.sensordata
+            observation['site_xpos'] = self.env.sim.data.site_xpos
         return observation
 
     def flat2dict(self, obs):
