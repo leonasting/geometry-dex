@@ -17,6 +17,19 @@ class a_cups_env(ManipulateEnv, utils.EzPickle):
             target_position_range=np.array([(-0.04, 0.04), (-0.06, 0.02), (0.0, 0.06)]),
             reward_type=reward_type, **kwargs)
 
+class a_cups2_env(ManipulateEnv, utils.EzPickle):
+    def __init__(self, target_position='ignore', target_rotation='z', reward_type='sparse', **kwargs):
+        xml_path = os.path.join(OWN_PATH, 'assets', 'hand', 'manipulate_{}.xml'.format(self.__class__.__name__[:-4]))
+        utils.EzPickle.__init__(self, target_position, target_rotation, reward_type)
+        ManipulateEnv.__init__(self,
+            model_path=xml_path,
+            target_position=target_position,
+            target_rotation=target_rotation,
+            target_position_range=np.array([(-0.04, 0.04), (-0.06, 0.02), (0.0, 0.06)]),
+            reward_type=reward_type, **kwargs)
+
+        
+
 
 class chain_env(ManipulateEnv, utils.EzPickle):
     def __init__(self, target_position='ignore', target_rotation='z', reward_type='sparse', **kwargs):
