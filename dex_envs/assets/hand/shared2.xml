@@ -222,11 +222,11 @@
         <jointpos name="robot0:Sjp_THJ2" joint="robot0:THJ2"></jointpos>
         <jointpos name="robot0:Sjp_THJ1" joint="robot0:THJ1"></jointpos>
         <jointpos name="robot0:Sjp_THJ0" joint="robot0:THJ0"></jointpos>
-        <touch name="robot0:ST_Tch_fftip" site="robot0:Tch_fftip"></touch>
+        <!--<touch name="robot0:ST_Tch_fftip" site="robot0:Tch_fftip"></touch>
         <touch name="robot0:ST_Tch_mftip" site="robot0:Tch_mftip"></touch>
         <touch name="robot0:ST_Tch_rftip" site="robot0:Tch_rftip"></touch>
         <touch name="robot0:ST_Tch_lftip" site="robot0:Tch_lftip"></touch>
-        <touch name="robot0:ST_Tch_thtip" site="robot0:Tch_thtip"></touch>
+        <touch name="robot0:ST_Tch_thtip" site="robot0:Tch_thtip"></touch>-->
     </sensor>
 
     <actuator>

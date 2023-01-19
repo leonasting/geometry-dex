@@ -1,0 +1,12 @@
+Thu Dec 15 18:39:56 2022
+WARNING: Pre-allocated constraint buffer is full. Increase njmax above 500. Time = 0.0560.
+
+Thu Dec 15 18:41:09 2022
+WARNING: Pre-allocated constraint buffer is full. Increase njmax above 500. Time = 0.0560.
+
+Thu Dec 15 18:43:25 2022
+WARNING: Pre-allocated constraint buffer is full. Increase njmax above 500. Time = 0.0560.
+
+Thu Dec 15 19:08:39 2022
+WARNING: Pre-allocated constraint buffer is full. Increase njmax above 500. Time = 0.0560.
+

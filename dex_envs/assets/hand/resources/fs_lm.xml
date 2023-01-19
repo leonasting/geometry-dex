@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujocoinclude>
+	<body name="fs_lm" pos="0 -0.0095 0.0225">
+		<body pos="-0.003 0.0003 -0.0125">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_1" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.001 0.0003 -0.0125">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_2" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.005 0.0003 -0.0125">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_3" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.009 0.0003 -0.0125">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_4" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="-0.003 0.0003 -0.0075">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_5" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.001 0.0003 -0.0075">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_6" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.005 0.0003 -0.0075">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_7" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.009 0.0003 -0.0075">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_8" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="-0.003 0.0003 -0.0025">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_9" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.001 0.0003 -0.0025">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_10" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.005 0.0003 -0.0025">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_11" pos="0 0 0"></site>
+			</body>
+		</body>
+		<body pos="0.009 0.0003 -0.0025">
+			<body pos="0 0 0">
+				<geom rgba="0 0.9 0 0.8" size="0.001566 0.0003 0.001566" type="ellipsoid" pos="0 -0.001 0" conaffinity="1" contype="2"></geom>
+				<joint axis="0 1 0" damping="18" limited="true" pos="0 0 0" range="-0.001 0.0001" stiffness="100" type="slide" user="1109"></joint>
+				<site rgba="0.1 0.2 1 0.5" size="0.001566 0.0003 0.001566" type="box" name="lm_12" pos="0 0 0"></site>
+			</body>
+		</body>
+	</body>
+</mujocoinclude>
