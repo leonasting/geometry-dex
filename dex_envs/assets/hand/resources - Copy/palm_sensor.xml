@@ -1,0 +1,13 @@
+<mujocoinclude>
+	<site name="robot0:T_palm_b0" type="box" pos="0.011 -0.005 0.006"  size="0.033 0.007 0.019" rgba="0 0 0 0.33"/>
+	<site name="robot0:T_palm_bl" type="box" pos="-0.011 -0.005 0.041" size="0.011 0.007 0.016" rgba="1 0 0 0.33"/>
+	<site name="robot0:T_palm_bm" type="box" pos="0.011 -0.005 0.041"  size="0.011 0.007 0.016" rgba="0 0 0 0.33"/>
+	<site name="robot0:T_palm_br" type="box" pos="0.033 -0.005 0.041"  size="0.011 0.007 0.016" rgba="1 0 0 0.33"/>
+	<site name="robot0:T_palm_fl" type="box" pos="-0.011 -0.005 0.073" size="0.011 0.007 0.016" rgba="0 0 0 0.33"/>
+	<site name="robot0:T_palm_fm" type="box" pos="0.011 -0.005 0.073"  size="0.011 0.007 0.016" rgba="1 0 0 0.33"/>
+	<site name="robot0:T_palm_fr" type="box" pos="0.033 -0.005 0.073"  size="0.011 0.007 0.016" rgba="0 0 0 0.33"/>
+	<!-- b1(one) is written not bl(left)-->
+	<site name="robot0:T_palm_b1" type="box" pos="-0.0325 -0.005 0.014" size="0.012 0.007 0.027" rgba="0 0 0 0.33"/>
+
+
+</mujocoinclude>

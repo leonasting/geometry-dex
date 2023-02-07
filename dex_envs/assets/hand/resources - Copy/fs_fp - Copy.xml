@@ -1,0 +1,101 @@
+<mujocoinclude>
+  <body name="fp_surface" pos="0 -0.0110  0.02">
+    <body pos="-0.0066 0 0.02">
+       <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+            <body pos = "0 0 0">
+                    <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                    <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                    <site name="fp_1" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0.5"/>
+            </body>
+    </body>
+    <body pos="0.0 0 0.02">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_2" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="0.0066 0 0.02">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_3" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="-0.0066 0 0.01">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_4" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="0.0 0 0.01">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_5" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="0.0066 0 0.01">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_6" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="-0.0066 0 0.0">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_7" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="0.0 0 0.0">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_8" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="0.0066 0 0.0">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_9" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="-0.0066 0 -0.01">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_10" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="0.0 0 -0.01">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_11" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+    <body pos="0.0066 0 -0.01">
+            <geom rgba="0 .9 0 0.6" size="0.001366 0.0005 0.001366" type="ellipsoid"></geom>
+                    <body pos = "0 0 0">
+                            <geom  type="ellipsoid" pos ="0 -0.001 0" size="0.001566 0.0001 0.001566" mass ="0.01" rgba=".5 .2 .5 0.8" contype = "2" conaffinity = "1"/>
+                            <joint  type="slide" pos="0 0.00 0" axis="0 1 0" range="-.001 0.0001"  user="1109" stiffness = "100" damping ="18" limited = "true"/>
+                            <site name="fp_12" type="box" pos ="0 -0.001 0" size="0.001366 0.0004 0.001366" rgba=".1 .2 1 0"/>
+                    </body>
+    </body>
+  </body>
+
+</mujocoinclude>
