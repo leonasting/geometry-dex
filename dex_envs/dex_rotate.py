@@ -5,29 +5,80 @@ from gym.envs.robotics.hand.manipulate import ManipulateEnv
 
 OWN_PATH = os.path.dirname(os.path.abspath(__file__))
 
-
-class a_cups_env(ManipulateEnv, utils.EzPickle):
-    def __init__(self, target_position='ignore', target_rotation='z', reward_type='sparse', **kwargs):
+# 600 sensor hand with sensor data active
+class a_cups_env(ManipulateTouchSensorsEnv, utils.EzPickle):
+    def __init__(self, target_position='ignore', target_rotation='z', reward_type='sparse',touch_visualisation="on_touch",
+        touch_get_obs="sensordata", **kwargs):
         xml_path = os.path.join(OWN_PATH, 'assets', 'hand', 'manipulate_{}.xml'.format(self.__class__.__name__[:-4]))
         utils.EzPickle.__init__(self, target_position, target_rotation, reward_type)
-        ManipulateEnv.__init__(self,
+        ManipulateTouchSensorsEnv.__init__(self,
             model_path=xml_path,
             target_position=target_position,
             target_rotation=target_rotation,
             target_position_range=np.array([(-0.04, 0.04), (-0.06, 0.02), (0.0, 0.06)]),
-            reward_type=reward_type, **kwargs)
+            reward_type=reward_type,
+            touch_visualisation=touch_visualisation,
+            touch_get_obs=touch_get_obs,
+            
+             **kwargs)
+        
+        for (k,v,) in (self.sim.model._sensor_name2id.items()): 
+            # get touch sensor site names and their ids
 
-class a_cups2_env(ManipulateEnv, utils.EzPickle):
-    def __init__(self, target_position='ignore', target_rotation='z', reward_type='sparse', **kwargs):
+        
+            self._touch_sensor_id_site_id.append(
+                (
+                    v,
+                    self.sim.model._site_name2id[
+                            k[1:]
+                    ],
+                )
+            )
+            self._touch_sensor_id.append(v)
+
+
+# 92 sensor hand with sensor data active
+class a_cups2_env(ManipulateTouchSensorsEnv, utils.EzPickle):
+    def __init__(self, target_position='ignore', target_rotation='z', reward_type='sparse',touch_visualisation="on_touch",
+        touch_get_obs="sensordata", **kwargs):
         xml_path = os.path.join(OWN_PATH, 'assets', 'hand', 'manipulate_{}.xml'.format(self.__class__.__name__[:-4]))
         utils.EzPickle.__init__(self, target_position, target_rotation, reward_type)
-        ManipulateEnv.__init__(self,
+        ManipulateTouchSensorsEnv.__init__(self,
             model_path=xml_path,
             target_position=target_position,
             target_rotation=target_rotation,
             target_position_range=np.array([(-0.04, 0.04), (-0.06, 0.02), (0.0, 0.06)]),
+            reward_type=reward_type,
+            touch_visualisation=touch_visualisation,
+            touch_get_obs=touch_get_obs,
+             **kwargs)
+# 199 sensor hand with sensor data active
+class a_cups3_env(ManipulateTouchSensorsEnv, utils.EzPickle):
+    def __init__(self, target_position='ignore', target_rotation='z', reward_type='sparse',touch_visualisation="on_touch",
+        touch_get_obs="sensordata", **kwargs):
+        xml_path = os.path.join(OWN_PATH, 'assets', 'hand', 'manipulate_{}.xml'.format(self.__class__.__name__[:-4]))
+        utils.EzPickle.__init__(self, target_position, target_rotation, reward_type)
+        ManipulateTouchSensorsEnv.__init__(self,
+            model_path=xml_path,
+            target_position=target_position,
+            target_rotation=target_rotation,
+            target_position_range=np.array([(-0.04, 0.04), (-0.06, 0.02), (0.0, 0.06)]),
+            touch_visualisation=touch_visualisation,
+            touch_get_obs=touch_get_obs,
             reward_type=reward_type, **kwargs)
+        for (k,v,) in (self.sim.model._sensor_name2id.items()): 
+            # get touch sensor site names and their ids
 
+            if k[0]=='t':
+                self._touch_sensor_id_site_id.append(
+                    (
+                        v,
+                        self.sim.model._site_name2id[
+                                k[1:]
+                        ],
+                    )
+                )
+                self._touch_sensor_id.append(v)
         
 
 
