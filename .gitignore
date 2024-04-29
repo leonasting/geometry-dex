@@ -1,3 +1,6 @@
 
 *.bak
 dex_envs/assets/hand/subparts/backup.txt
+/download/.ipynb_checkpoints
+*.pkl
+/wandb
